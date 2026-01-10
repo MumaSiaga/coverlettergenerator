@@ -63,6 +63,7 @@ Rules:
 - Sound human and natural
 - Do not invent experience
 - Use only information from CV
+- Give only the letter as the response
 """
 
     async with httpx.AsyncClient(timeout=60) as client:
