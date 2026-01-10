@@ -62,6 +62,7 @@ Rules:
 - No emojis
 - Sound human and natural
 - Do not invent experience
+- Use only information from CV
 """
 
     async with httpx.AsyncClient(timeout=60) as client:
