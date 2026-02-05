@@ -74,7 +74,7 @@ Rules:
                 "Content-Type": "application/json",
             },
                         json={
-                "model": "xiaomi/mimo-v2-flash:free",
+                "model": "stepfun/step-3.5-flash:free",
                 "messages": [
                     {"role": "system", "content": "You are a professional cover letter writing assistant."},
                     {"role": "user", "content": prompt}
